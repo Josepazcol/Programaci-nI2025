@@ -1,0 +1,42 @@
+Resumen:
+Este video es un curso introductorio a Git y GitHub, diseñado para principiantes. Comienza explicando qué es Git y por qué es esencial para el control de versiones en el desarrollo de software . Luego, guía a través de la instalación de Git y demuestra los comandos básicos para trabajar con repositorios locales. El video también cubre cómo usar GitHub para alojar repositorios remotos y colaborar en proyectos.
+
+Respuestas:
+¿Qué es GIT?
+
+Git es un sistema de control de versiones que permite administrar los cambios en archivos y coordinar el trabajo de múltiples personas en un mismo proyecto. Esencialmente, Git registra los cambios realizados en un archivo o conjunto de archivos a lo largo del tiempo, permitiéndote recuperar versiones específicas más adelante.
+
+¿Cuáles son los comandos más importantes y para qué sirven?
+
+git init: Inicializa un nuevo repositorio de Git en un directorio 
+git add: Añade cambios del directorio de trabajo al área de preparación (staging area) 
+git status: Muestra el estado del directorio de trabajo y del área de preparación 
+git commit: Guarda los cambios del área de preparación en el historial del repositorio 
+git push: Sube los cambios del repositorio local a un repositorio remoto 
+git pull: Descarga los cambios de un repositorio remoto al repositorio local
+git clone: Crea una copia local de un repositorio remoto 
+¿Cuál es la diferencia entre Git y Github?
+
+Git es un sistema de control de versiones instalado localmente en tu computadora. GitHub, por otro lado, es una plataforma en línea que utiliza Git para el alojamiento de repositorios de código, permitiendo la colaboración entre desarrolladores
+
+Enumere los comandos para subir cambios a un repositorio.
+
+git add . (para agregar todos los cambios) 
+git commit -m "Mensaje del commit" (para confirmar los cambios con un mensaje)
+git push origin master (para subir los cambios a la rama principal del repositorio remoto)
+¿Qué es una branch?
+
+Una "branch" (rama) es una versión paralela de un repositorio. Permite trabajar en nuevas funcionalidades o correcciones sin afectar la rama principal (generalmente "master" o "main").
+
+¿Cuál es la diferencia entre un repositorio local y un repositorio remoto?
+
+Un repositorio local es aquel que se encuentra en tu computadora. Un repositorio remoto está alojado en un servidor, como GitHub, permitiendo el acceso y la colaboración de múltiples personas.
+
+¿Cuáles son los comandos básicos para...?
+
+Inicializar un repositorio: git init
+Descargar un repositorio: git clone <URL_del_repositorio> 
+Agregar archivos a un repositorio local: git add . (para agregar todos) o git add <nombre_del_archivo> (para un archivo específico)
+Confirmar cambios en un repositorio local: git commit -m "Mensaje"
+Subir cambios a un repositorio remoto: git push origin master
+Revertir cambios en una branch: git checkout -- <nombre_del_archivo>
